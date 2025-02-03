@@ -1,0 +1,229 @@
+
+
+/* General Body Styles */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #F5F9E9;
+    color: #333;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Heading Styles */
+h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 35px;
+    color: #470631; /* Hot pink color for headings */
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #f8096c;
+
+}
+
+.credit-name {
+    margin-top: 90px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+
+.grid-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+}
+.grid-container-image{
+    display: grid;
+    place-items: center;
+    height: auto;
+}   
+.image {
+    width: 90%;
+    height: 200px;
+    object-fit: contain;
+}
+/* Invitation Text Styling */
+.invitation-text {
+    font-size: 25px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #770643; /* Deep pink */
+    margin-top: 25px; /* Increased top margin for more space */
+    margin-bottom: 50px; /* Space below the text */
+    font-weight: bold;
+    line-height: 2.0; /* Adds line spacing inside the text */
+    text-align: center; /* Centers the text */
+    border-style: dashed;
+    border-color: #671135;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+/* Heart Icon Styling */
+.heart {
+    font-size: 38px;
+    color: rgb(235, 23, 23);
+}
+.gif-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15x;
+    align-items: center;
+    place-items: center;
+    
+}
+.gif{
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+}
+/* Common button styles */
+/* Common button styles */
+/* From Uiverse.io by Madflows */ 
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 3;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 20px;
+    margin-bottom: 30px;
+   }
+   
+   button.YES {
+    font-weight: 600;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #fff0f0;
+    border: 2px solid #b18597;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.YES::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f9c4d2;
+    border-radius: inherit;
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.YES:hover {
+    background: #ffe9e9;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+   }
+   
+   button.YES::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+   }
+   
+   button.YES:active {
+    background: #ffe9e9;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+   }
+   
+   button.YES:active::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+   }
+
+   button.NO {
+    font-weight: 600;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #fff0f0;
+    border: 2px solid #b18597;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.NO::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f9c4d2;
+    border-radius: inherit;
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.NO:hover {
+    background: #ffe9e9;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+   }
+   
+   button.NO::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+   }
+   
+   button.NO:active {
+    background: #ffe9e9;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+   }
+   
+   button.NO:active::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+   }
+

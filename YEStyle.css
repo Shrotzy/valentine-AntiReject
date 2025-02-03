@@ -1,0 +1,82 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif    ;
+    background-color: #F5F9E9; 
+    color: #333;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.message {
+    padding: 80px;  
+    font-family: 'JetBrains Mono', monospace ;
+    line-height: 1.6;  /* Adjust the value as needed (1.5 - 2 is often good for readability) */
+    font-size: 1.3rem;
+    color: #211f20;
+    text-align: center;
+}
+
+.credit-name {
+    margin-top: 160px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 16px;
+
+}
+h2{
+    padding-top: 10vh;
+}
+
+.grid-container-image {
+    display: grid;              /* Keep the grid display */
+    grid-template-columns: auto; /* This ensures only one column */
+    justify-items: center;      /* Center all items horizontally */
+    align-items: center;        /* Align images vertically */
+    width: 100%;                /* Takes up full width */
+    height: 30vh;               /* Adjust the height of the container */
+    overflow-x: auto;           /* Allows horizontal scrolling if images overflow */
+    padding: 0 0vh;             /* Optional: Adds space around the grid container */
+}
+
+.grid_images {
+    display: flex;              /* Use flexbox to align images in a row */
+    gap: 0.5vh;                   /* Optional: Spacing between images */
+    justify-content: center;    /* Center images horizontally */
+    align-items: center;        /* Align images vertically */
+}
+
+.Image {
+    width: 24vh;                 /* Make the images smaller with dynamic size */
+    height: 24vh;                /* Adjust height accordingly */
+    object-fit: contain;        /* Maintain image aspect ratio */
+}
+
+
+.gif-container {
+    display: flex;              /* Use flexbox to align items in a row */
+    justify-content: center;    /* Center items horizontally */
+    align-items: center;        /* Align items vertically */
+    gap: 4rem;                  /* Optional: Adds space between items */
+}
+
+.gif {
+    width: 23vw;                /* Adjust the width of the GIFs */
+    height: auto;               /* Keep the aspect ratio of the GIFs */
+    object-fit: contain;        /* Ensures GIFs fit within their container */
+}
+
+h4{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13vh;
+    margin-top: 0vh;
+    color:rgb(227, 11, 112);
+}
+h5{
+    font-size: 8.8vh;
+    font-family: 'JetBrains Mono', monospace;
+    color:rgb(227, 11, 112);
+}
+h6{
+    font-size: 11vh;
+    font-family: 'JetBrains Mono', monospace;
+    color:rgb(227, 11, 112);
+}
